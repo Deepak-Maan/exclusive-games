@@ -25,10 +25,10 @@ const Nuestros = () => {
         { id: 6, img: casino, title: "Innovación", },
     ]
     return (
-        <div className="bg-no-repeat  w-full bg-cover py-[255px]">
+        <div className="bg-no-repeat bg-[100% 100%]  w-full bg-cover py-[255px]">
             <div className="mx-auto px-3 flex flex-col max-w-[1140px]">
                 <h2 className='text-4xl sm:text-5xl font-normal font-anton leading-[57px] text-[#00141B] text-center'>Nuestros Atributos de Marca</h2>
-                <div className="grid grid-cols-3 my-[60px] relative">
+                <div className="grid grid-cols-3 my-[60px] gap-14 relative">
                     {
                         slotsData.map((items, index) => (
                             <div key={index} className="flex flex-col items-center w-full max-w-[245px]">
@@ -39,7 +39,7 @@ const Nuestros = () => {
                         ))
                     }
                     <span className="absolute top-0 left-[17%]"><UpBowArrow /></span>
-                    <span className="absolute top-[50px] right-[28%]"><DownBowArrow /></span>
+                    <span className="absolute top-[50px] right-[25%]"><DownBowArrow /></span>
                 </div>
             </div>
             <div className="mx-auto px-3 flex flex-col max-w-[1140px] mt-[90px]">
