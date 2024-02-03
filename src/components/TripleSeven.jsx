@@ -7,13 +7,13 @@ import money from "../assets/images/currency.svg";
 const TripleSeven = () => {
     return (
         <div>
-            <div className="max-w-[1140px] mx-auto px-3 pt-[100px] pb-[150px]">
+            <div className="max-w-[1140px] mx-auto px-3 py-7 sm:py-10 md:pt-[100px] md:pb-[150px]">
                 <div className="grid lg:grid-cols-2 -mx-3 justify-between">
                     <div className=" px-3 max-w-[558px]">
                         <img className='w-full h-full' src={seven} alt="seven" />
                     </div>
                     <div className=" px-3">
-                        <h2 className='text-white pb-[50px] font-Anton font-normal text-[48px] leading-[57px]'>Más razones para elegirnos</h2>
+                        <h2 className='text-white md:pb-[50px] font-Anton font-normal text-[23px] sm:text-2xl md:text-3xl lg:text-[48px] leading-[57px]'>Más razones para elegirnos</h2>
                         <div className=' bg-people p-[0.5px] pl-[1px] duration-300 hover:shadow-[0px_5px_10px_#7AF57A] rounded-[16px] max-w-[374px]'>
                             <div className=" px-[56px] bg-[#051D23] py-6 flex items-center gap-[37px] rounded-[16px]">
                                 <img className='w-[68px] h-[68px]' src={bulb} alt="bulb" />
