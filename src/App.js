@@ -25,7 +25,7 @@ function App() {
       <div className="bg-[url('./assets/images/jackpot-bg.png')] bg-no-repeat bg-size">
         <Jackpot />
       </div>
-      <div className="bg-[url('./assets/images/casino-Bg.png')] bg-no-repeat bg-size">
+      <div className=" bg-white md:bg-[url('./assets/images/casino-Bg.png')] bg-no-repeat bg-size">
         <Cashino />
       </div>
       <TripleSeven />
