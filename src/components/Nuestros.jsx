@@ -25,13 +25,13 @@ const Nuestros = () => {
         { id: 6, img: casino, title: "Innovación", },
     ]
     return (
-        <div className="bg-no-repeat bg-[100% 100%]  w-full bg-cover py-[255px]">
+        <div className="bg-no-repeat bg-[100% 100%]  w-full bg-cover py-5 sm:pt-12 md:py-32 lg:py-[255px]">
             <div className="mx-auto px-3 flex flex-col max-w-[1140px]">
-                <h2 className='text-4xl sm:text-5xl font-normal font-anton leading-[57px] text-[#00141B] text-center'>Nuestros Atributos de Marca</h2>
-                <div className="grid sm:grid-cols-2 lg:grid-cols-3 my-[60px] gap-14 relative">
+                <h2 className=' text-[23px] sm:text-2xl md:text-4xl lg:text-5xl font-normal font-anton leading-[57px] text-[#00141B] text-center'>Nuestros Atributos de Marca</h2>
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 my-4 sm:my-8 lg:my-[60px] gap-5 sm:gap-8 md:gap-14 relative">
                     {
                         slotsData.map((items, index) => (
-                            <div key={index} className="flex flex-col items-center w-full max-w-[245px]">
+                            <div key={index} className="flex flex-col items-center w-full sm:max-w-[245px]">
                                 <img src={items.svg} alt="blub" />
                                 <h2 className="text-[#00141B] font-anton font-normal text-xl leading-[26px] text-center mt-4">{items.title}</h2>
                                 <p className="text-[#00141B] font-inter font-medium text-base opacity-80 leading-[26px] text-center mt-4">{items.para}</p>
@@ -42,9 +42,9 @@ const Nuestros = () => {
                     <span className="absolute max-lg:hidden top-[50px] right-[25%]"><DownBowArrow /></span>
                 </div>
             </div>
-            <div className="mx-auto px-3 flex flex-col max-w-[1140px] mt-[90px]">
+            <div className="mx-auto px-3 flex flex-col max-w-[1140px] pt-5 sm:mt-10 md:mt-[90px]">
                 <h2 className='text-4xl sm:text-5xl font-normal font-anton leading-[57px] text-[#00141B] text-center'>Slots </h2>
-                <p className="text-[#00141B] font-inter font-medium text-base opacity-80 leading-[26px] text-center mt-4 max-w-[904px] mx-auto">En Exclusive Games, ofrecemos una selección de más de 600 juegos de los principales desarrolladores, como Aristocrat, Amatic, EGT, Novomatic, IGT, Playtech, Igrosoft y Tom Horn. Nuestro equipo trabaja incansablemente para innovar y ampliar nuestra oferta de experiencias, garantizando la máxima seguridad con operaciones protegidas por cifrado SSL de 256 bits.</p>
+                <p className="text-[#00141B] font-inter font-medium text-sm sm:text-base opacity-80 leading-[23px] sm:leading-[26px] text-center mt-4 max-w-[904px] mx-auto">En Exclusive Games, ofrecemos una selección de más de 600 juegos de los principales desarrolladores, como Aristocrat, Amatic, EGT, Novomatic, IGT, Playtech, Igrosoft y Tom Horn. Nuestro equipo trabaja incansablemente para innovar y ampliar nuestra oferta de experiencias, garantizando la máxima seguridad con operaciones protegidas por cifrado SSL de 256 bits.</p>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 mt-[60px] relative gap-6">
                     {
                         slotsDataSecond.map((listing, index) => (
