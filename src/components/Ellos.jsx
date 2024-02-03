@@ -14,8 +14,8 @@ const Ellos = () => {
     ]
     return (
         <div className='max-w-[1140px] mx-auto px-3 pb-5'>
-            <h2 className=' text-5xl text-white font-normal font-anton leading-[120%] text-center pb-[60px]'>Ellos eligieron apostar con nosotros</h2>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-28">
+            <h2 className=' text-[23px] sm:text-2xl md:text-3xl lg:text-5xl text-white font-normal font-anton leading-[120%] text-center pt-7 pb-4 md:pb-9 lg:pb-[60px]'>Ellos eligieron apostar con nosotros</h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-4 sm:pb-10 md:pb-14 lg:pb-28">
                 {
                     jackpotdata.map((listing, index) => (
                         <div key={index} className="relative flex flex-col items-center w-full duration-300 group">
@@ -29,7 +29,7 @@ const Ellos = () => {
                     ))
                 }
             </div>
-            <p className=' text-white text-base font-inter font-semibold leading-[160%] text-center max-w-[883px] mx-auto'>Clientes satisfechos que confiaron en Exclusive Games y han disfrutado de emocionantes experiencias de juego.
+            <p className=' text-white text-sm sm:text-base font-inter font-semibold leading-[130%] lg:leading-[160%] text-center max-w-[883px] mx-auto'>Clientes satisfechos que confiaron en Exclusive Games y han disfrutado de emocionantes experiencias de juego.
                 Ahora, la próxima apuesta está en tus manos.
                 Elige ganar. Elige exclusive game.</p>
         </div>
