@@ -15,7 +15,7 @@ const Ellos = () => {
     return (
         <div className='max-w-[1140px] mx-auto px-3 pb-5'>
             <h2 className=' text-5xl text-white font-normal font-anton leading-[120%] text-center pb-[60px]'>Ellos eligieron apostar con nosotros</h2>
-            <div className="grid grid-cols-3 gap-6 pb-28">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-28">
                 {
                     jackpotdata.map((listing, index) => (
                         <div key={index} className="relative flex flex-col items-center w-full duration-300 group">

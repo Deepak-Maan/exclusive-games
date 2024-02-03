@@ -11,11 +11,11 @@ const Spin = () => {
                 <h2 className='text-white font-anton font-normal text-[48px] leading-[57px] text-center'>Nuestras ofertas</h2>
                 <p className='text-white font-inter pt-4 pb-[60px] font-medium leading-[25px] text-[16px] text-center opacity-80'>Te ofrecemos las mejores experiencias de juegos para tus clientes.</p>
                 <div className="w-full border-[0.5px] border-white bg-[#051D23] rounded-[16px]">
-                    <div className="flex flex-wrap flex-row -mx-3 pt-[57px] pb-[32px] items-center">
-                        <div className="w-7/12 px-3">
+                    <div className="grid lg:grid-cols-2 pt-[57px] pb-[32px] items-center">
+                        <div >
                             <img className='w-full' src={casinoSpin} alt="casinoSpin-img" />
                         </div>
-                        <div className="w-5/12 px-3">
+                        <div >
                             <h4 className='text-white text-[32px] font-anton font-normal leading-[41px]'>Silver</h4>
                             <p className=' font-inter font-medium text-[16px] leading-[25px] text-white pt-4 opacity-80'>Diseño predeterminado, atractivo y fácil de navegar, tecnología HTLM5.</p>
                             <p className='pt-[32px] font-anton font-normal text-[48px] leading-[57px] text-white'>$5000</p>
@@ -84,8 +84,8 @@ const Spin = () => {
                     </div>
                 </div>
                 <div className="w-full border-[0.5px] px-[40px] py-[38px] border-white bg-[#051D23] rounded-[16px]">
-                    <div className="flex flex-wrap flex-row -mx-3 justify-between items-center">
-                        <div className='w-5/12 px-3 max-w-[364px]'>
+                    <div className="grid lg:grid-cols-2 justify-between items-center">
+                        <div className=' max-w-[364px]'>
                             <h4 className='text-white text-[32px] font-anton font-normal leading-[41px]'>Platinum</h4>
                             <p className='font-inter font-medium text-[16px] leading-[25px] text-white pt-4 opacity-80'>Diseño totalmente personalizado. Contáctanos para un presupuesto.</p>
                             <h2 className='text-white font-anton font-normal text-[48px] leading-[57px] pt-8 pb-4'>Consultar precio</h2>
@@ -98,7 +98,7 @@ const Spin = () => {
                                 <span className="absolute -left-1 -bottom-1"><ButtonBottom /></span>
                             </div>
                         </div>
-                        <div className="w-7/12 px-3">
+                        <div className=" px-3">
                             <img className='w-full' src={cards777} alt="cards777" />
                         </div>
                     </div>

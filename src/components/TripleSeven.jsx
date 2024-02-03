@@ -8,7 +8,7 @@ const TripleSeven = () => {
     return (
         <div>
             <div className="max-w-[1140px] mx-auto px-3 pt-[100px] pb-[150px]">
-                <div className="grid grid-cols-2 -mx-3 justify-between">
+                <div className="grid lg:grid-cols-2 -mx-3 justify-between">
                     <div className=" px-3 max-w-[558px]">
                         <img className='w-full h-full' src={seven} alt="seven" />
                     </div>

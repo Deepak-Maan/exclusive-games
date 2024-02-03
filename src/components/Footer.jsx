@@ -56,7 +56,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <hr className=' w-full h-[1px] bg-[#FFFF] mt-[40px]' />
-                <p className='font-["inter"] font-medium text-sm sm:text-[16px] leading-4  sm:leading-6  text-[#808080] pt-[20px] mx-auto text-center'> © Juegos exclusivos - Todos los derechos reservados 2023</p>
+                <p className='font-["inter"] font-medium text-sm sm:text-[16px] leading-4  sm:leading-6  text-[#808080] pt-[20px] mx-auto text-center'> © Juegos exclusivos - Todos los derechos reservados 2024</p>
             </div>
         </>
     )
