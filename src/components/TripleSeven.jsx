@@ -6,7 +6,9 @@ import money from "../assets/images/currency.svg";
 
 const TripleSeven = () => {
     return (
-        <div>
+        <div className='relative overflow-x-clip'>
+            <div className='w-[440px] h-[440px] rounded-full bg-blue-307 absolute top-0 left-[-10%]  blur-[180px] animate-pulse'></div>
+            <div className='w-[440px] h-[440px] rounded-full bg-blue-307 absolute bottom-0 right-[-10%] blur-[180px] animate-pulse'></div>
             <div className="max-w-[1140px] mx-auto px-3 py-7 sm:py-10 md:pt-[100px] md:pb-[150px]">
                 <div className="grid lg:grid-cols-2 -mx-3 justify-between">
                     <div className=" px-3 max-w-[558px]">

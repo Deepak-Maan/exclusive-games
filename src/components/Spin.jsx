@@ -6,7 +6,9 @@ import CommonBtn from './CommonButton';
 import SecondaryBtn from './SecondaryBtn';
 const Spin = () => {
     return (
-        <div>
+        <div className='relative overflow-x-clip'>
+            <div className='w-[440px] h-[440px] rounded-full bg-blue-307 absolute bottom-0 left-0 z-[3] blur-[180px] animate-pulse'></div>
+            <div className='w-[440px] h-[440px] rounded-full bg-blue-307 absolute bottom-0 right-0 z-[3] blur-[180px] animate-pulse'></div>
             <div className="max-w-[1140px] mx-auto px-3">
                 <h2 className='text-white font-anton font-normal text-[23px] sm:text-2xl md:text-3xl lg:text-[48px] leading-[130%] sm:leading-[57px] text-center'>Nuestras ofertas</h2>
                 <p className='text-white font-inter pt-4 pb-3 md:pb-7 lg:pb-[60px] font-medium leading-[25px] text-sm sm:text-[16px] text-center opacity-80'>Te ofrecemos las mejores experiencias de juegos para tus clientes.</p>

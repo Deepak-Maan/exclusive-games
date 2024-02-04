@@ -13,7 +13,9 @@ const Jackpot = () => {
 
     ]
     return (
-        <div>
+        <div className='relative overflow-x-clip'>
+            <div className='w-[484px] h-[484px] rounded-full bg-blue-307 absolute top-0 left-[-20%] blur-[180px] animate-pulse'></div>
+            <div className='w-[484px] h-[484px] rounded-full bg-blue-307 absolute bottom-0 right-[-20%] blur-[180px] animate-pulse'></div>
             <div className="mx-auto px-3 max-w-[1140px] pt-5 sm:pt-11 lg:pt-[90px]">
                 <div className="grid lg:grid-cols-2 gap-5 sm:gap-10 pb-4 sm:pb-7 md:pb-16 lg:pb-[150px]">
                     <div>

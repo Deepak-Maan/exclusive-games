@@ -5,12 +5,14 @@ import { Email, Facebook, Instagram, Linkedin, Phone } from './Icons'
 
 const Footer = () => {
     return (
-        <>
+        <div className='relative overflow-x-clip'>
+            <div className='w-[180px] h-[180px] rounded-full bg-blue-307 absolute bottom-0 left-0 z-[3] blur-[180px] animate-pulse'></div>
+            <div className='w-[180px] h-[180px] rounded-full bg-blue-307 absolute top-0 right-0 z-[3] blur-[180px] animate-pulse'></div>
             <div className=' bg-[#000000] pb-7 md:py-10 lg:py-[20px] relative overflow-hidden' >
                 <div className=' max-w-[1160px] container mx-auto px-3 '>
                     <div className=' flex flex-wrap  flex-row -mx-3 pt-3 sm:pt-5 md:pt-[50px]'>
                         <div className='w-full xl:w-1/3 px-3'>
-                            <img src={PageLogo} alt="Footerlogo" />
+                            <a href="#"><img src={PageLogo} alt="Footerlogo" /></a>
                             <p className='font-["inter"] font-medium text-[16px]  leading-6  max-w-[369px] text-[#CCCCCC] pt-[16px]'>En Exclusive Games somos un equipo apasionado de personas dedicadas al desarrollo de multiplataformas para juegos de azar</p>
                             <div className=" flex gap-5 pt-3 sm:pt-6">
                                 <a href="https://www.instagram.com/" target="_blank">
@@ -58,7 +60,7 @@ const Footer = () => {
                 <hr className=' w-full h-[1px] bg-[#FFFF] mt-[40px]' />
                 <p className='font-["inter"] font-medium text-sm sm:text-[16px] leading-4  sm:leading-6  text-[#808080] pt-[20px] mx-auto text-center'> © Juegos exclusivos - Todos los derechos reservados 2024</p>
             </div>
-        </>
+        </div>
     )
 }
 
