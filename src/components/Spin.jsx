@@ -115,7 +115,7 @@ const Spin = () => {
                 </div>
                 <div className="w-full border-[0.5px] px-3 sm:px-5 md:px-[40px] py-[38px] border-white bg-[#051D23] rounded-[16px]">
                     <div className="grid lg:grid-cols-2 justify-between items-center">
-                        <div className=' max-w-[364px] order-2 lg:order-1'>
+                        <div className=' relative z-[3] max-w-[364px] order-2 lg:order-1'>
                             <h4 className='text-white text-[32px] font-anton font-normal leading-[41px] pt-5 lg:pt-0'>Platinum</h4>
                             <p className='font-inter font-medium text-[16px] leading-[25px] text-white pt-4 opacity-80'>Diseño totalmente personalizado. Contáctanos para un presupuesto.</p>
                             <h2 className='text-white font-anton font-normal text-[23px] sm:text-2xl md:text-3xl lg:text-[48px]  leading-[120%] sm:leading-[57px] md:pt-8 py-4'>Consultar precio</h2>
@@ -124,11 +124,11 @@ const Spin = () => {
                                 <p className=' font-inter font-medium text-[16px] leading-[25px] text-white text-center pb-4 sm:pb-7 lg:pb-[40px] opacity-80'>Personalizable</p>
                             </div>
                             <div className="relative">
-                                <CommonBtn text="Reproducir ahora" />
+                                <CommonBtn text="Comprar ahora" />
                                 <span className="absolute -left-1 -bottom-1"><ButtonBottom /></span>
                             </div>
                         </div>
-                        <div className=" px-3 order-1 lg:order-2">
+                        <div className=" relative z-[3] px-3 order-1 lg:order-2">
                             <img className='w-full' src={cards777} alt="cards777" />
                         </div>
                     </div>
