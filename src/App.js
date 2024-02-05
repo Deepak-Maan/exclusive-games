@@ -1,4 +1,5 @@
 import "./App.css";
+import Backtotop from "./components/BackToTop";
 import Cashino from "./components/Cashino";
 import Ellos from "./components/Ellos";
 import Footer from "./components/Footer";
@@ -33,6 +34,7 @@ function App() {
       <Ellos />
       <Preguntas />
       <Footer />
+      <Backtotop />
     </div>
   );
 }

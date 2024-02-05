@@ -6,8 +6,8 @@ import { Email, Facebook, Instagram, Linkedin, Phone } from './Icons'
 const Footer = () => {
     return (
         <div className='relative overflow-x-clip'>
-            <div className='w-[180px] h-[180px] rounded-full bg-blue-307 absolute bottom-0 left-0 z-[3] blur-[180px] animate-pulse'></div>
-            <div className='w-[180px] h-[180px] rounded-full bg-blue-307 absolute top-0 right-0 z-[3] blur-[180px] animate-pulse'></div>
+            <div className='w-[180px] max-lg:hidden h-[180px] rounded-full bg-blue-307 absolute bottom-0 left-0 z-[3] blur-[180px] animate-pulse'></div>
+            <div className='w-[180px] max-lg:hidden h-[180px] rounded-full bg-blue-307 absolute top-0 right-0 z-[3] blur-[180px] animate-pulse'></div>
             <div className=' bg-[#000000] pb-7 md:py-10 lg:py-[20px] relative overflow-hidden' >
                 <div className=' max-w-[1160px] container mx-auto px-3 '>
                     <div className=' flex flex-wrap  flex-row -mx-3 pt-3 sm:pt-5 md:pt-[50px]'>
