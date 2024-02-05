@@ -5,9 +5,9 @@ import { Ellipse } from './Icons'
 const Mision = () => {
     return (
         <div className='relative overflow-x-clip'>
-            <div className='w-[484px] h-[484px] rounded-full bg-blue-307 absolute top-0 left-[-20%] blur-[180px] animate-pulse'></div>
-            <div className='w-[484px] h-[484px] rounded-full bg-blue-307 absolute bottom-[-10%] right-[-20%] blur-[180px] animate-pulse'></div>
-            <div className='w-[100px] h-[100px] rounded-full bg-blue-307 absolute top-[35%] left-[47%] blur-[60px] animate-pulse'></div>
+            <div className='w-[484px] max-lg:hidden h-[484px] rounded-full bg-blue-307 absolute top-0 left-[-20%] blur-[180px] animate-pulse'></div>
+            <div className='w-[484px] max-lg:hidden h-[484px] rounded-full bg-blue-307 absolute bottom-[-10%] right-[-20%] blur-[180px] animate-pulse'></div>
+            <div className='w-[100px] max-lg:hidden h-[100px] rounded-full bg-blue-307 absolute top-[35%] left-[47%] blur-[60px] animate-pulse'></div>
             <div className="mx-auto px-3 max-w-[1140px] pt-7 sm:pt-9 md:pt-[75px] pb-4 sm:pb-8 md:pb-12 lg:pb-[100px]">
                 <div className="grid lg:grid-cols-2 gap-16">
                     <div className='max-w-[538px]'>
