@@ -14,7 +14,7 @@ const Ellos = () => {
     ]
     return (
         <div className='max-w-[1140px] mx-auto px-3 pb-5'>
-            <h2 className=' text-[23px] sm:text-2xl md:text-3xl lg:text-5xl text-white font-normal font-anton leading-[120%] text-center pt-7 pb-4 md:pb-9 lg:pb-[60px]'>Ellos eligieron apostar con nosotros</h2>
+            <h2 className=' text-[23px] sm:text-2xl md:text-3xl lg:text-5xl text-white font-normal font-anton leading-[120%] text-center pt-7 lg:pt-36 pb-4 md:pb-9 lg:pb-[60px]'>Ellos eligieron apostar con nosotros</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-4 sm:pb-10 md:pb-14 lg:pb-28">
                 {
                     jackpotdata.map((listing, index) => (
