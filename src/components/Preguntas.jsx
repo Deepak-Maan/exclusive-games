@@ -21,7 +21,7 @@ const Preguntas = () => {
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
     return (
         <div className="relative overflow-x-clip">
-            <div className='w-[394px] h-[395px] rounded-full bg-blue-307 absolute top-0 left-0 z-[3] blur-[180px] animate-pulse'></div>
+            <div className='w-[394px] h-[395px] max-lg:hidden rounded-full bg-blue-307 absolute top-0 left-0 z-[3] blur-[180px] animate-pulse'></div>
             <div className='max-w-[970px] mx-auto px-3'>
                 <div className=' py-7 sm:py-10 md:py-20 lg:py-[150px]'>
                     <h2 className=' text-[23px] sm:text-2xl md:text-3xl lg:text-5xl font-anton leading-[120%] font-normal text-center pb-4 sm:pb-7 md:pb-[60px] text-white'>Preguntas más frecuentes</h2>
