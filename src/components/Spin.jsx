@@ -4,6 +4,10 @@ import cards777 from "../assets/images/777withcards.webp";
 import { ButtonBottom, ButtonBottom2, DoubleTick } from './Icons';
 import CommonBtn from './CommonButton';
 import SecondaryBtn from './SecondaryBtn';
+import Acard from '../assets/images/a-card.png'
+import Dice from '../assets/images/dice.png'
+import Heartcard from '../assets/images/red-card.png'
+import circular from '../assets/images/circular-dice.png'
 const Spin = () => {
     return (
         <div className='relative overflow-x-clip'>
@@ -58,7 +62,11 @@ const Spin = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full px-3 my-[64px] border-[0.5px] bg-[url('../src/assets/images/luxery-bg.png)'] bg-size bg-no-repeat h-full border-white bg-[#051D23] rounded-[16px] py-[45px] flex items-center flex-col">
+                <div className="w-full relative px-3 my-[64px] border-[0.5px] bg-[url('../src/assets/images/luxery-bg.png)'] bg-size bg-no-repeat h-full border-white bg-[#051D23] rounded-[16px] py-[45px] flex items-center flex-col">
+                    <img className='absolute max-lg:hidden top-[10%] left-[10%]' src={circular} alt="dice" />
+                    <img className='absolute max-lg:hidden bottom-[10%] left-[10%]' src={Acard} alt="card" />
+                    <img className='absolute max-lg:hidden bottom-[10%] right-[10%]' src={Dice} alt="dice" />
+                    <img className='absolute max-lg:hidden top-[10%] right-[10%]' src={Heartcard} alt="dice" />
                     <div className='max-w-[419px]'>
                         <h4 className='text-white text-[32px] font-anton font-normal leading-[41px] text-center'>Luxury</h4>
                         <p className='font-inter font-medium text-sm sm:text-[16px] leading-[25px] text-white pt-4 text-center opacity-80'>lleva tu experiencia de juego al siguiente nivel. Con todas las características de la versión Silver y la potencia adicional de la tecnología React .</p>
