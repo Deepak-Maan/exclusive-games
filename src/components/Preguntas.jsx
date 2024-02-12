@@ -7,10 +7,10 @@ function Icon({ id, open }) {
     return (
         <div className="relative ">
             <svg xmlns="http://www.w3.oyg/1700/svg" width="21" height="2" viewBox="0 0 21 2" fill="white" className={`${id === open ? "" : "rotate-90"} h-5 w-5   transition-transform`}>
-                <path d="M1.69629 1H19.6963" stroke="#fff" stroke-width="2" stroke-linecap="round" />
+                <path d="M1.69629 1H19.6963" stroke="#fff" strokeWidth="2" strokeLinecap="round" />
             </svg>
             <svg className="absolute rotate-0 top-[9px]" xmlns="http://www.w3.org/2000/svg" width="21" height="2" viewBox="0 0 21 2" fill="white" >
-                <path d="M1.69629 1H19.6963" stroke="#fff" stroke-width="2" stroke-linecap="round" />
+                <path d="M1.69629 1H19.6963" stroke="#fff" strokeWidth="2" strokeLinecap="round" />
             </svg>
         </div>
     );
