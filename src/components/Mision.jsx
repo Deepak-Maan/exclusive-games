@@ -10,7 +10,7 @@ const Mision = () => {
             <div className='w-[100px] max-lg:hidden h-[100px] rounded-full bg-blue-307 absolute top-[35%] left-[47%] blur-[60px] animate-pulse'></div>
             <div className="mx-auto px-3 max-w-[1140px] pt-7 sm:pt-9 md:pt-[75px] pb-4 sm:pb-8 md:pb-12 lg:pb-[100px]">
                 <div className="grid lg:grid-cols-2 gap-16">
-                    <div className='max-w-[538px]'>
+                    <div className='max-w-[538px] relative z-[3]'>
                         <img src={Poker} alt="poker" />
                         <div className=' pt-4 sm:pt-8 md:pt-[60px]'>
                             <p className='text-white text-[21px] sm:text-2xl md:text-3xl lg:text-5xl font-normal font-anton leading-[120%]'>Nuestra Visión</p>
@@ -18,7 +18,7 @@ const Mision = () => {
                             <a className='text-base font-bold font-inter leading-[160%] text-[#7AF57A]' href="">Aprende más {"-->"}</a>
                         </div>
                     </div>
-                    <div className='max-w-[538px] flex flex-col-reverse lg:flex-col'>
+                    <div className='max-w-[538px] flex flex-col-reverse lg:flex-col relative z-[3]'>
                         <div className=' md:pb-[60px]'>
                             <p className='text-white sm:text-2xl md:text-3xl lg:text-5xl font-normal font-anton leading-[120%]'>Nuestra Visión</p>
                             <p className='text-[#CCD0D1] text-sm sm:text-base font-medium font-inter leading-[130%] sm:leading-[160%] max-w-[444px] pt-4 pb-4 sm:pb-6'>Nuestra misión es simple pero poderosa: proporcionarte la más amplia gama de soluciones de entretenimiento de alta calidad y rentabilidad. Estamos comprometidos a elevar tus expectativas y brindarte experiencias inigualables.</p>

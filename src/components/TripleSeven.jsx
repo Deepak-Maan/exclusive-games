@@ -16,22 +16,28 @@ const TripleSeven = () => {
                     </div>
                     <div className=" relative z-[5] px-3">
                         <h2 className='text-white md:pb-[50px] font-Anton font-normal text-[23px] sm:text-2xl md:text-3xl lg:text-[48px] leading-[57px]'>Más razones para elegirnos</h2>
-                        <div className=' bg-people p-[0.5px] pl-[1px] duration-300  rounded-[16px] max-w-[374px]'>
-                            <div className=" px-[56px] bg-[#051D23] py-6 flex items-center gap-[37px] rounded-[16px]">
-                                <img className='w-[68px] h-[68px]' src={bulb} alt="bulb" />
-                                <p className='max-w-[127px] font-inter flex flex-col font-medium leading-[25px] text-[16px] text-white'><span className=' font-anton text-[32px] leading-[41px] font-normal'>200</span> Páginas creadas</p>
+                        <div className='bg-blue-307 rounded-2xl max-w-[374px]'>
+                            <div className=' bg-people m-[1px]  p-[0.5px] pl-[1px] duration-300  rounded-[16px] max-w-[374px]'>
+                                <div className=" px-[56px] bg-[#051D23] py-6 flex items-center gap-[37px] rounded-[16px]">
+                                    <img className='w-[68px] h-[68px]' src={bulb} alt="bulb" />
+                                    <p className='max-w-[127px] font-inter flex flex-col font-medium leading-[25px] text-[16px] text-white'><span className=' font-anton text-[32px] leading-[41px] font-normal'>200</span> Páginas creadas</p>
+                                </div>
                             </div>
                         </div>
-                        <div className='bg-people mt-6 p-[0.5px] duration-300  pl-[1px] rounded-[16px] max-w-[374px]'>
-                            <div className="max-w-[374px] bg-[#051d23]  px-[56px] py-6 flex items-center gap-[37px] rounded-[16px]">
-                                <img className='w-[68px] h-[68px]' src={people} alt="people" />
-                                <p className='max-w-[127px] font-inter flex flex-col  font-medium leading-[25px] text-[16px] text-white'><span className=' font-anton text-[32px] leading-[41px] font-normal'>98%</span> Clientes Satisfechas</p>
+                        <div className='bg-blue-307 rounded-2xl max-w-[374px]'>
+                            <div className='bg-people  m-[1px] mt-6 p-[0.5px] duration-300  pl-[1px] rounded-[16px] max-w-[374px]'>
+                                <div className="max-w-[374px] bg-[#051d23]  px-[56px] py-6 flex items-center gap-[37px] rounded-[16px]">
+                                    <img className='w-[68px] h-[68px]' src={people} alt="people" />
+                                    <p className='max-w-[127px] font-inter flex flex-col  font-medium leading-[25px] text-[16px] text-white'><span className=' font-anton text-[32px] leading-[41px] font-normal'>98%</span> Clientes Satisfechas</p>
+                                </div>
                             </div>
                         </div>
-                        <div className='bg-people mt-6 p-[0.5px] duration-300  pl-[1px] pb-[1px] rounded-[16px] max-w-[374px]'>
-                            <div className="max-w-[374px] bg-[#051d23] px-[56px] py-6 flex items-center gap-[37px] rounded-[16px]">
-                                <img className='w-[68px] h-[68px]' src={money} alt="money" />
-                                <p className='max-w-[127px] font-inter flex flex-col font-medium leading-[25px] text-[16px] text-white'> <span className=' font-anton text-[32px] leading-[41px] font-normal'>200</span> Divisas Disponibles</p>
+                        <div className='bg-blue-307 rounded-2xl max-w-[374px]'>
+                            <div className='bg-people  m-[1px] mt-6 p-[0.5px] duration-300  pl-[1px] pb-[1px] rounded-[16px] max-w-[374px]'>
+                                <div className="max-w-[374px] bg-[#051d23] px-[56px] py-6 flex items-center gap-[37px] rounded-[16px]">
+                                    <img className='w-[68px] h-[68px]' src={money} alt="money" />
+                                    <p className='max-w-[127px] font-inter flex flex-col font-medium leading-[25px] text-[16px] text-white'> <span className=' font-anton text-[32px] leading-[41px] font-normal'>200</span> Divisas Disponibles</p>
+                                </div>
                             </div>
                         </div>
                     </div>

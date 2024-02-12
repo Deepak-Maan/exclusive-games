@@ -11,7 +11,7 @@ import circular from '../assets/images/circular-dice.png'
 const Spin = () => {
     return (
         <div className='relative overflow-x-clip'>
-            <div className='w-[440px] max-lg:hidden h-[440px] rounded-full bg-blue-307 absolute bottom-0 left-0 z-[3] blur-[180px] animate-pulse'></div>
+            <div className='w-[440px] max-lg:hidden h-[440px] rounded-full bg-blue-307 absolute bottom-0 left-[-8%] z-[3] blur-[180px] animate-pulse'></div>
             <div className='w-[440px] max-lg:hidden h-[440px] rounded-full bg-blue-307 absolute bottom-0 right-0 z-[3] blur-[180px] animate-pulse'></div>
             <div className="max-w-[1140px] mx-auto px-3">
                 <h2 className='text-white font-anton font-normal text-[23px] sm:text-2xl md:text-3xl lg:text-[48px] leading-[130%] sm:leading-[57px] text-center'>Nuestras ofertas</h2>
